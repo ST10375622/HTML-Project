@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="How to page" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+        @media (prefers-reduced-motion: no-preference) {
+            * {
+                scroll-behavior: smooth;
+            }
+        }
+
+        body {
+            background: #D8E1E8;
+            color: #1b1b32;
+            font-family: Helvetica;
+            margin: 0;
+        }
+
+        header {
+            width: 100%;
+            height: 50px;
+            background-color: #304674;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+        }
+
+        h1 {
+            color: #000000;
+            font-size: min(5vw, 1.2em);
+            text-align: center;
+        }
+
+        nav {
+            width: 50%;
+            max-width: 300px;
+            height: 50px;
+        }
+
+        nav>ul {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: center;
+            padding-inline-start: 0;
+            margin-block: 0;
+            height: 100%;
+        }
+
+        nav>ul>li {
+            color: #dfdfe2;
+            margin: 0 0.2rem;
+            padding: 0.2rem;
+            display: block;
+        }
+
+        nav>ul>li:hover {
+            background-color: #dfdfe2;
+            color: #1b1b32;
+            cursor: pointer;
+        }
+
+        li>a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        main {
+            padding-top: 50px;
+        }
+
+        h1
+        {
+            font-family: Verdana, Tahoma;
+        }
+
+        p {
+            margin-top: 5px;
+            padding-left: 15px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        Name of the company
+    </h1>
+    <header>
+        <h1>company name </h1>
+        <h1>Home Page</h1>
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="Report.html">Report</a></li>
+                <li><a href="HowTo.html">How To</a></li>
+                <li><a href="AboutUs.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to...</h1>
+        <p>Welcome to <!--enter the company name here-->""'s website. Here you will have the ability to report 
+            any compalints or issues that you have found in south africa.
+            for exapmle if you see a pothole you will be able to report it. 
+            these issues will get fixed as soon as possible. This has been doen to help make 
+            it easier for worker to identify issue anywhere and have them fixed quickly.
+        <br/>
+            If you do not know how to submit an issue you can go to the <a href="HowTo.html">how to page</a>.
+            It will give you an idea of what you are suppose to do.</p>
+
+    </main>
+    
+</body>
+
+</html>
